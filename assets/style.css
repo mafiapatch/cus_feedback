@@ -1,3 +1,4 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
 body {
   font-family: Microsoft JhengHei;
 }
@@ -48,14 +49,71 @@ select.shop-category {
 
 .item_modal{
 	background: rgba(0,0,0,0.7);
-	z-index: 99999;
+	z-index: 2;
 	position: fixed;
 	width: 100%;
 	height: 100%;
 	top:0;
-	display: none;
+	color: #fff;
+	/*display: none;*/
 }
 
 .item_modal .item_detail_pic{
-	padding-top: 20%;
+	padding-top: 15%;
 }
+
+.item_modal .item_detail_data{
+	padding-top: 15%;
+}
+
+.modal_close{
+  right: 2em;
+  top: 2em;
+  position: absolute;
+  font-size: 16px;
+  color: #999;
+  cursor: pointer;
+  z-index: 3;
+}
+
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+
+
