@@ -44,12 +44,14 @@
                         <li class="col-sm-3">
                             <a class="thumbnail" id="carousel-selector-0">
                                 <img src="http://placehold.it/255x152&text=zero">
-                                <p>123</p>
+                                <p>商品標題商品標題商品標題商品標題商品標題商品標題商品標題商品標題商品標題</p>
                             </a>
                         </li>
 
                         <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-1"><img src="http://placehold.it/255x152&text=1"></a>
+                            <a class="thumbnail" id="carousel-selector-1"><img src="http://placehold.it/255x152&text=1">
+                            <p>商品標題商品標題商品標題商品標題商品標題商品標題商品標題商品標題商品標題</p>
+                            </a>
                         </li>
 
                         <li class="col-sm-3">

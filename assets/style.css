@@ -17,6 +17,11 @@ ul.hide-bullets>li>a>p{
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    color: #333;
+}
+
+#slider-thumbs ul li a{
+  cursor: pointer;
 }
 
 .thumbnail {
@@ -55,7 +60,7 @@ select.shop-category {
 	height: 100%;
 	top:0;
 	color: #fff;
-	/*display: none;*/
+	display: none;
 }
 
 .item_modal .item_detail_pic{
