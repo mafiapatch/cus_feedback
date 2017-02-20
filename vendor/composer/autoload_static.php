@@ -6,9 +6,14 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit49789c6c248e102182423fe9f859356e
 {
+    public static $classMap = array (
+        'DAO' => __DIR__ . '/../..' . '/libraries/DAO.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->classMap = ComposerStaticInit49789c6c248e102182423fe9f859356e::$classMap;
 
         }, null, ClassLoader::class);
     }
