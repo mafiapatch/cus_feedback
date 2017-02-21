@@ -55,8 +55,8 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6 item_detail_pic">
-            <h3>商品標題</h3>
-            <a class="thumbnail" id="carousel-selector-15"><img src="http://placehold.it/1000x500&text=15"></a>
+            <h3 id="item_title">商品標題</h3>
+            <a class="thumbnail" id="carousel-selector-15"><img id="item_pic" src="http://placehold.it/1000x500&text=15"></a>
           </div>
           <div class="col-sm-12 col-md-6 item_detail_data">
             <p>感謝您的購買</p>

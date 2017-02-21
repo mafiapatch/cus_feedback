@@ -4,6 +4,31 @@ $('.modal_close').click(function(){
 });
 
 $(document).on('click', '#slider-thumbs ul li a', function() {
+	y=$(this).attr("id").substring( 18 );
+	console.log(y);
+	$.ajax({
+        url: "./json/category_"+x+".json",
+        crossDomain: false,  
+        type: "GET",
+        dataType: "json", 
+             	   
+        success: function(data) {			
+            //原list中資料清除 				  
+			 
+            if(data.length==0){
+                $( "ul.hide-bullets" ).append( '<li class="col-sm-12">無資料</li>' );
+                return;
+            }
+
+            $(".item_modal .container .row .item_detail_pic h3#item_title").html(data[y].model_name);
+            $(".item_modal .container .row .item_detail_pic a img#item_pic").attr("src",data[y].product_image);		 
+  
+        },
+		
+        error: function() {
+            $( "ul.hide-bullets" ).append( '<li class="col-sm-12">無資料</li>' );
+        }
+    })
 	$('.item_modal').show();
 });
 
@@ -38,7 +63,7 @@ $(document).on('click', '#slider-thumbs ul li a', function() {
 
 	function item_load() {
 
-	    var x = $('select.shop-category').val();
+	    x = $('select.shop-category').val();
 	    // console.log(x);
 	    $("ul.hide-bullets").empty();
     	$.ajax({
