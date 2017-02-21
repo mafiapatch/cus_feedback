@@ -12,7 +12,7 @@ $('#slider-thumbs ul li a').click(function(){
 	    	//start json parser
 			$.ajax({
 		        url: "./json/navigation.json",
-		        crossDomain: true,  
+		        crossDomain: false,  
 		        type: "GET",
 		        dataType: "json", 
 		       
@@ -23,22 +23,50 @@ $('#slider-thumbs ul li a').click(function(){
 		            if(data.length==0){
 		                alert("找不到任何資料");
 		                return;
-		            }
-					 console.log(data.navigation.length);
-		            //依序加入取得之資料			 
+		            }		 
 		            for(var i=0; i<data.navigation.length; i++){
-		            	// data.navigation[i];
-		            	category_id=data.navigation[i].nt_url.substring( 9 )
+		            	category_id=data.navigation[i].nt_url.substring( 9 );
 		            	$( "select.shop-category" ).append( "<option value='"+category_id+"'>"+data.navigation[i].nt_name+"</option>" );
-		            }	  
+		            }
+		            item_load();	  
 		        },
-				
-		        //如果連線失敗
 		        error: function() {
 		            alert("服務取得失敗");
 		        }
 		    })
-		//end json parser
-
+		
 	});
 
+	function item_load() {
+	    var x = $('select.shop-category').val();
+	    // console.log(x);
+
+    	$.ajax({
+	        url: "./json/category_"+x+".json",
+	        crossDomain: false,  
+	        type: "GET",
+	        dataType: "json", 
+	       
+	        //如果連線成功        	   
+	        success: function(data) {			
+	            //原list中資料清除 				  
+				 
+	            if(data.length==0){
+	                alert("找不到任何資料");
+	                return;
+	            }
+				 item_length=Object.keys(data).length;
+	            //依序加入取得之資料			 
+	            for(var i=0; i<item_length; i++){
+	            	// data.navigation[i];
+	            	// category_id=data.navigation[i].nt_url.substring( 9 )
+	            	$( "ul.hide-bullets" ).append( '<li class="col-sm-3"><a class="thumbnail" id="carousel-selector-'+i+'"><img src="http://placehold.it/255x152&text=zero"><p>'+data[i].model_name+'</p></a></li>' );
+	            }	  
+	        },
+			
+	        //如果連線失敗
+	        error: function() {
+	            alert("服務取得失敗");
+	        }
+	    })
+	}

@@ -24,7 +24,7 @@
         <p>您好，請選擇商品分類：</p>
          <div class="row">
             <div class="col-sm-12 col-md-4" id="slider-thumbs">
-              <select class="form-control shop-category">
+              <select class="form-control shop-category" onchange="item_load()">
               </select>
             </div>
           </div>
@@ -39,71 +39,6 @@
                 <div class="col-sm-12" id="slider-thumbs">
                     <!-- Bottom switcher of slider -->
                     <ul class="hide-bullets">
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-0">
-                                <img src="http://placehold.it/255x152&text=zero">
-                                <p>商品標題商品標題商品標題商品標題商品標題商品標題商品標題商品標題商品標題</p>
-                            </a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-1"><img src="http://placehold.it/255x152&text=1">
-                            <p>商品標題商品標題商品標題商品標題商品標題商品標題商品標題商品標題商品標題</p>
-                            </a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-2"><img src="http://placehold.it/255x152&text=2"></a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-3"><img src="http://placehold.it/255x152&text=3"></a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-4"><img src="http://placehold.it/255x152&text=4"></a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-5"><img src="http://placehold.it/255x152&text=5"></a>
-                        </li>
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-6"><img src="http://placehold.it/255x152&text=6"></a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-7"><img src="http://placehold.it/255x152&text=7"></a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-8"><img src="http://placehold.it/255x152&text=8"></a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-9"><img src="http://placehold.it/255x152&text=9"></a>
-                        </li>
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-10"><img src="http://placehold.it/255x152&text=10"></a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-11"><img src="http://placehold.it/255x152&text=11"></a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-12"><img src="http://placehold.it/255x152&text=12"></a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-13"><img src="http://placehold.it/255x152&text=13"></a>
-                        </li>
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-14"><img src="http://placehold.it/255x152&text=14"></a>
-                        </li>
-
-                        <li class="col-sm-3">
-                            <a class="thumbnail" id="carousel-selector-15"><img src="http://placehold.it/255x152&text=15"></a>
-                        </li>
                     </ul>
                 </div>
                 <!--/Slider-->
