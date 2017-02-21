@@ -1,13 +1,18 @@
 <?
   require 'vendor/autoload.php';
   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-        if( isset($_POST['content']) AND !empty($_POST['content']) AND
-        isset($_POST['phone']) AND !empty($_POST['phone']) ) {
+        if( isset($_POST['nickname']) AND !empty($_POST['rating']) ) {
 
+        $id = htmlentities($_POST['id'], ENT_QUOTES, 'UTF-8');
+        $item_id = htmlentities($_POST['item_id'], ENT_QUOTES, 'UTF-8');
+        $cat_id = htmlentities($_POST['item_category_id'], ENT_QUOTES, 'UTF-8');
+        $nickname = htmlentities($_POST['nickname'], ENT_QUOTES, 'UTF-8');
         $content = htmlentities($_POST['content'], ENT_QUOTES, 'UTF-8');
-        $phone = htmlentities($_POST['phone'], ENT_QUOTES, 'UTF-8');
+        $ranking = htmlentities($_POST['rating'], ENT_QUOTES, 'UTF-8');
+        $time=date("y-m-d H:i:s");
+        $data_array = array('cat_id' => $cat_id , 'item_id' => $item_id , 'nickname' => $nickname , 'content' => $content , 'ranking' => $ranking , 'datetime' => $time);
         $DAO = new DAO();
-        $result_user=$DAO->query('user');
+        $result_user=$DAO->insert('feedback',$data_array);
     }
   }
 
@@ -44,10 +49,10 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <p>感謝您的回應，您的折扣碼為：</p>
+        <!-- <p>感謝您的回應，您的折扣碼為：</p> -->
          <div class="row">
             <div class="col-sm-12 col-md-4" id="slider-thumbs">
-              <h2>ABCD1234</h2>
+              <h2>感謝您的回應</h2>
             </div>
           </div>
       </div>
