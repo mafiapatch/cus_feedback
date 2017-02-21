@@ -22,6 +22,8 @@ ul.hide-bullets>li>a>p{
 
 #slider-thumbs ul li a{
   cursor: pointer;
+  max-height: 152px;
+  overflow: hidden;
 }
 
 .thumbnail {
