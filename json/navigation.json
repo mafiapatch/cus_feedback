@@ -1,0 +1,144 @@
+{
+  "navigation": [
+    {
+      "nt_id": "12",
+      "nt_name": "\u6e05\u6f54\u7528\u54c1",
+      "nt_url": "category\/1",
+      "nt_target": "_self",
+      "nt_status": "0",
+      "nt_company_id": "2",
+      "nt_lang_id": "2",
+      "nt_position": "1",
+      "nt_order": "0",
+      "nav_content": []
+    },
+    {
+      "nt_id": "13",
+      "nt_name": "\u5eda\u623f\u7528\u54c1",
+      "nt_url": "category\/12",
+      "nt_target": "_self",
+      "nt_status": "0",
+      "nt_company_id": "2",
+      "nt_lang_id": "2",
+      "nt_position": "1",
+      "nt_order": "0",
+      "nav_content": []
+    },
+    {
+      "nt_id": "14",
+      "nt_name": "\u5e38\u898b\u554f\u984c",
+      "nt_url": "faq",
+      "nt_target": "_self",
+      "nt_status": "0",
+      "nt_company_id": "2",
+      "nt_lang_id": "2",
+      "nt_position": "1",
+      "nt_order": "0",
+      "nav_content": []
+    },
+    {
+      "nt_id": "15",
+      "nt_name": "\u806f\u7d61\u6211\u5011",
+      "nt_url": "contact",
+      "nt_target": "_self",
+      "nt_status": "0",
+      "nt_company_id": "2",
+      "nt_lang_id": "2",
+      "nt_position": "1",
+      "nt_order": "0",
+      "nav_content": []
+    },
+    {
+      "nt_id": "23",
+      "nt_name": "\u5feb\u901f\u9023\u7d50",
+      "nt_url": "#",
+      "nt_target": "_self",
+      "nt_status": "0",
+      "nt_company_id": "2",
+      "nt_lang_id": "2",
+      "nt_position": "2",
+      "nt_order": "0",
+      "nav_content": [
+        {
+          "nc_id": "53",
+          "nc_nt_id": "23",
+          "nc_name": "\u8a02\u55ae\u67e5\u8a62",
+          "nc_url": "http:\/\/woco.com.tw\/search",
+          "nc_target": "_self",
+          "nc_status": "0",
+          "nc_company_id": "2",
+          "nc_lang_id": "2",
+          "nc_order": "1"
+        },
+        {
+          "nc_id": "20",
+          "nc_nt_id": "23",
+          "nc_name": "\u7522\u54c1\u4ecb\u7d39",
+          "nc_url": "http:\/\/woco.com.tw\/category\/1",
+          "nc_target": "_self",
+          "nc_status": "0",
+          "nc_company_id": "2",
+          "nc_lang_id": "2",
+          "nc_order": "0"
+        },
+        {
+          "nc_id": "22",
+          "nc_nt_id": "23",
+          "nc_name": "\u5e38\u898b\u554f\u984c",
+          "nc_url": "faq",
+          "nc_target": "_self",
+          "nc_status": "0",
+          "nc_company_id": "2",
+          "nc_lang_id": "2",
+          "nc_order": "0"
+        }
+      ]
+    },
+    {
+      "nt_id": "24",
+      "nt_name": "\u806f\u7d61\u6211\u5011",
+      "nt_url": "contact",
+      "nt_target": "_self",
+      "nt_status": "0",
+      "nt_company_id": "2",
+      "nt_lang_id": "2",
+      "nt_position": "2",
+      "nt_order": "0",
+      "nav_content": [
+        {
+          "nc_id": "23",
+          "nc_nt_id": "24",
+          "nc_name": "",
+          "nc_url": "#",
+          "nc_target": "_self",
+          "nc_status": "0",
+          "nc_company_id": "2",
+          "nc_lang_id": "2",
+          "nc_order": "0"
+        },
+        {
+          "nc_id": "24",
+          "nc_nt_id": "24",
+          "nc_name": "\u52a0\u6211\u5011Line",
+          "nc_url": "https:\/\/line.me\/R\/ti\/p\/%40ewa5840l",
+          "nc_target": "_blank",
+          "nc_status": "0",
+          "nc_company_id": "2",
+          "nc_lang_id": "2",
+          "nc_order": "0"
+        },
+        {
+          "nc_id": "25",
+          "nc_nt_id": "24",
+          "nc_name": "\u6f54\u7aa9\u7c89\u7d72\u9801",
+          "nc_url": "https:\/\/www.facebook.com\/wococlean\/",
+          "nc_target": "_blank",
+          "nc_status": "0",
+          "nc_company_id": "2",
+          "nc_lang_id": "2",
+          "nc_order": "0"
+        }
+      ]
+    }
+  ]
+}

@@ -25,8 +25,6 @@
          <div class="row">
             <div class="col-sm-12 col-md-4" id="slider-thumbs">
               <select class="form-control shop-category">
-                <option>清潔用品</option>
-                <option>廚房用品</option>
               </select>
             </div>
           </div>
