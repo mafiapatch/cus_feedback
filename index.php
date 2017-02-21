@@ -60,7 +60,7 @@
           </div>
           <div class="col-sm-12 col-md-6 item_detail_data">
             <p>感謝您的購買</p>
-            <form action="success.php" method="post">
+            <form action="success.php" data-toggle="validator" role="form" method="post">
               <input type="hidden" name="item_id" value="">
               <input type="hidden" name="item_category_id" value="">
               <div class="form-group">
@@ -75,13 +75,13 @@
                   <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
                   <input type="radio" id="star1half" name="rating" value="1.5" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
                   <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
-                  <input type="radio" id="starhalf" name="rating" value="0.5" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                  <input type="radio" id="starhalf" name="rating" value="0.5" required/><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
                 </fieldset>
                 <br><br>
               </div>
               <div class="form-group">
                 <label for="nickname">您的暱稱</label>
-                <input type="text" class="form-control" name="nickname" placeholder="暱稱">
+                <input type="text" class="form-control" name="nickname" placeholder="暱稱" required>
               </div>
               <div class="form-group">
                 <label for="content">您的意見</label>
@@ -97,5 +97,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="assets/script.js"></script>
+    <script src="assets/validator.js"></script>
   </body>
 </html>
