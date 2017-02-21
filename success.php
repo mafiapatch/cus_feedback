@@ -1,3 +1,18 @@
+<?
+  require 'vendor/autoload.php';
+  if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        if( isset($_POST['content']) AND !empty($_POST['content']) AND
+        isset($_POST['phone']) AND !empty($_POST['phone']) ) {
+
+        $content = htmlentities($_POST['content'], ENT_QUOTES, 'UTF-8');
+        $phone = htmlentities($_POST['phone'], ENT_QUOTES, 'UTF-8');
+        $DAO = new DAO();
+        $result_user=$DAO->query('user');
+    }
+  }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
