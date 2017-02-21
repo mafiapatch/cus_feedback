@@ -61,6 +61,8 @@
           <div class="col-sm-12 col-md-6 item_detail_data">
             <p>感謝您的購買</p>
             <form action="success.php" method="post">
+              <input type="hidden" name="item_id" value="">
+              <input type="hidden" name="item_category_id" value="">
               <div class="form-group">
                 <fieldset class="rating">
                   <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
