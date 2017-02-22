@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主機: localhost:8889
--- 產生時間： 2017 年 02 月 21 日 13:37
+-- 產生時間： 2017 年 02 月 22 日 05:11
 -- 伺服器版本: 5.5.38
 -- PHP 版本： 5.6.2
 
@@ -35,7 +35,7 @@ CREATE TABLE `feedback` (
   `ranking` double NOT NULL,
   `status` int(1) NOT NULL DEFAULT '0',
   `datetime` datetime NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=latin1;
 
 --
 -- 資料表的匯出資料 `feedback`
@@ -46,7 +46,9 @@ INSERT INTO `feedback` (`id`, `item_id`, `cat_id`, `nickname`, `content`, `ranki
 (16, 412, 1, '徐章嘉', '我好愛這個', 4, 0, '2017-02-21 13:15:00'),
 (17, 635, 1, '徐章嘉', '這還不錯', 4, 0, '2017-02-21 13:15:21'),
 (18, 412, 1, '徐章嘉', '', 3.5, 0, '2017-02-21 13:16:52'),
-(19, 412, 1, 'dsadsda', '我超強！！', 3.5, 0, '2017-02-21 13:36:46');
+(19, 412, 1, 'dsadsda', '我超強！！', 3.5, 0, '2017-02-21 13:36:46'),
+(20, 210, 12, '安安', 'dsadsdas', 4.5, 0, '2017-02-22 05:10:38'),
+(21, 635, 1, '您好', 'ㄏㄏ', 5, 0, '2017-02-22 05:10:50');
 
 --
 -- 已匯出資料表的索引
@@ -56,7 +58,7 @@ INSERT INTO `feedback` (`id`, `item_id`, `cat_id`, `nickname`, `content`, `ranki
 -- 資料表索引 `feedback`
 --
 ALTER TABLE `feedback`
- ADD PRIMARY KEY (`id`);
+ ADD PRIMARY KEY (`id`), ADD KEY `id` (`id`);
 
 --
 -- 在匯出的資料表使用 AUTO_INCREMENT
@@ -66,7 +68,7 @@ ALTER TABLE `feedback`
 -- 使用資料表 AUTO_INCREMENT `feedback`
 --
 ALTER TABLE `feedback`
-MODIFY `id` int(10) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=20;
+MODIFY `id` int(10) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=22;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
