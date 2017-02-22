@@ -3,7 +3,6 @@
   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if( isset($_POST['nickname']) AND !empty($_POST['rating']) ) {
 
-        $id = htmlentities($_POST['id'], ENT_QUOTES, 'UTF-8');
         $item_id = htmlentities($_POST['item_id'], ENT_QUOTES, 'UTF-8');
         $cat_id = htmlentities($_POST['item_category_id'], ENT_QUOTES, 'UTF-8');
         $nickname = htmlentities($_POST['nickname'], ENT_QUOTES, 'UTF-8');
@@ -29,7 +28,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title>顧客回應</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">

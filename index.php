@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title>顧客回應</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -65,8 +65,9 @@
               <input type="hidden" name="item_category_id" value="">
               <div class="form-group">
                 <h3>請評分：</h3>
+                <div class="help-block with-errors"></div>
                 <fieldset class="rating">
-                  <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                  <input type="radio" id="star5" name="rating" value="5" required/><label class = "full" for="star5" title="Awesome - 5 stars"></label>
                   <input type="radio" id="star4half" name="rating" value="4.5" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
                   <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
                   <input type="radio" id="star3half" name="rating" value="3.5" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
@@ -75,17 +76,19 @@
                   <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
                   <input type="radio" id="star1half" name="rating" value="1.5" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
                   <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
-                  <input type="radio" id="starhalf" name="rating" value="0.5" required/><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                  <input type="radio" id="starhalf" name="rating" value="0.5" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
                 </fieldset>
                 <br><br>
               </div>
               <div class="form-group">
+                <div class="help-block with-errors"></div>
                 <label for="nickname">您的暱稱</label>
                 <input type="text" class="form-control" name="nickname" placeholder="暱稱" required>
               </div>
               <div class="form-group">
+                <div class="help-block with-errors"></div>
                 <label for="content">您的意見</label>
-                <textarea class="form-control" name="content" rows="5"></textarea>
+                <textarea class="form-control" name="content" rows="5" required></textarea>
               </div>
               <input type="submit" class="btn btn-default" value="送出">
             </form>

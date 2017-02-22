@@ -54,7 +54,9 @@ $(document).on('click', '#slider-thumbs ul li a', function() {
 		            }		 
 		            for(var i=0; i<data.navigation.length; i++){
 		            	category_id=data.navigation[i].nt_url.substring( 9 );
-		            	$( "select.shop-category" ).append( "<option value='"+category_id+"'>"+data.navigation[i].nt_name+"</option>" );
+		            	if(data.navigation[i].nt_url.search("category")>=0){
+		            		$( "select.shop-category" ).append( "<option value='"+category_id+"'>"+data.navigation[i].nt_name+"</option>" );
+		            	}
 		            }
 		            item_load();	  
 		        },
