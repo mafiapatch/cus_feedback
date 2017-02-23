@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -50,7 +50,7 @@
 
     <div class="item_modal">
       <div class="modal_close">
-        X
+        <button class="btn btn-default">關閉</button>
       </div>
       <div class="container">
         <div class="row">
