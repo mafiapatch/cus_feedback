@@ -1,6 +1,7 @@
 
 $('.modal_close').click(function(){
 	$('.item_modal').hide();
+	$("body").removeClass('modal-open');
 });
 
 $(document).on('click', '#slider-thumbs ul li a', function() {
@@ -9,6 +10,7 @@ $(document).on('click', '#slider-thumbs ul li a', function() {
     $("input:radio").removeAttr("checked");
     $("input[name=nickname]").val('');
     $("textarea[name=content]").val('');
+    $("body").addClass('modal-open');
 	$.ajax({
         url: "./json/category_"+x+".json",
         crossDomain: false,  

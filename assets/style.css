@@ -81,6 +81,8 @@ select.shop-category {
 	top:0;
 	color: #fff;
 	display: none;
+  overflow:scroll;
+  padding-bottom: 2em;
 }
 
 .item_modal .item_detail_pic{
@@ -143,4 +145,14 @@ select.shop-category {
 
 div.help-block ul li{
   color: #ff6c69;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+@media screen and (max-width:768px) { 
+  #slider-thumbs ul li a .mask{
+    margin: 0 15px 0px 15px;
+  }
 }
