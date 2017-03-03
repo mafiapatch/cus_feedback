@@ -63,6 +63,8 @@
             <form action="success.php" data-toggle="validator" role="form" method="post">
               <input type="hidden" name="item_id" value="">
               <input type="hidden" name="item_category_id" value="">
+              <input type="hidden" name="item_name" value="">
+              <input type="hidden" name="item_company_id" value="">
               <div class="form-group">
                 <h3>請評分：</h3>
                 <div class="help-block with-errors"></div>

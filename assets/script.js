@@ -28,6 +28,8 @@ $(document).on('click', '#slider-thumbs ul li a', function() {
             $(".item_modal .container .row .item_detail_pic h3#item_title").html(data[y].model_name);
             $(".item_modal .container .row .item_detail_pic a img#item_pic").attr("src",data[y].product_image);		 
   			$("input[name=item_id]").val(data[y].model_id);	
+  			$("input[name=item_name]").val(data[y].model_name);	
+  			$("input[name=item_company_id]").val(data[y].model_company_id);	
   			$("input[name=item_category_id]").val(x);	
         },
 		

@@ -1,7 +1,7 @@
 {
   "0": {
     "model_id": "412",
-    "model_company_id": "2",
+    "model_company_id": "1",
     "model_lang_id": "2",
     "model_category_id": "1",
     "model_name": "\u6a58\u5b50\u53bb\u6c61\u5237\u5237\u4e73",
@@ -36,7 +36,7 @@
   },
   "1": {
     "model_id": "327",
-    "model_company_id": "2",
+    "model_company_id": "1",
     "model_lang_id": "2",
     "model_category_id": "1",
     "model_name": "\u9bca\u9b5a\u54ac\u83dc\u74dc\u5e03(3\u5165\u88dd)",
@@ -71,7 +71,7 @@
   },
   "2": {
     "model_id": "635",
-    "model_company_id": "2",
+    "model_company_id": "1",
     "model_lang_id": "2",
     "model_category_id": "1",
     "model_name": "\u6ef4\u6c34\u4e0d\u9032\u9632\u6c34\u5674\u9727",
@@ -106,7 +106,7 @@
   },
   "3": {
     "model_id": "195",
-    "model_company_id": "2",
+    "model_company_id": "1",
     "model_lang_id": "2",
     "model_category_id": "1",
     "model_name": "\u5f37\u529b\u5438\u76e4\u62d6\u628a\u6383\u628a\u639b\u9264",
@@ -141,7 +141,7 @@
   },
   "4": {
     "model_id": "1",
-    "model_company_id": "2",
+    "model_company_id": "1",
     "model_lang_id": "2",
     "model_category_id": "1",
     "model_name": "\u9b54\u6cd5\u6d77\u7dbf\u6383\u628a",
@@ -176,7 +176,7 @@
   },
   "5": {
     "model_id": "51",
-    "model_company_id": "2",
+    "model_company_id": "1",
     "model_lang_id": "2",
     "model_category_id": "1",
     "model_name": "\u5674\u9727\u6c34\u62d6\u628a",
@@ -211,7 +211,7 @@
   },
   "6": {
     "model_id": "580",
-    "model_company_id": "2",
+    "model_company_id": "1",
     "model_lang_id": "2",
     "model_category_id": "1",
     "model_name": "\u6383\u9664\u6e05\u6f54\u5927\u5e2b\u7d44",
@@ -246,7 +246,7 @@
   },
   "7": {
     "model_id": "166",
-    "model_company_id": "2",
+    "model_company_id": "1",
     "model_lang_id": "2",
     "model_category_id": "1",
     "model_name": "\u5674\u9727\u62d6\u628a\u66ff\u63db\u5e03\u7d44",
@@ -281,7 +281,7 @@
   },
   "8": {
     "model_id": "167",
-    "model_company_id": "2",
+    "model_company_id": "1",
     "model_lang_id": "2",
     "model_category_id": "1",
     "model_name": "\u9b54\u6cd5\u6383\u628a\u6d77\u7dbf\u7d44",
@@ -316,7 +316,7 @@
   },
   "9": {
     "model_id": "366",
-    "model_company_id": "2",
+    "model_company_id": "1",
     "model_lang_id": "2",
     "model_category_id": "1",
     "model_name": "\u7701\u7a7a\u9593\u758a\u758a\u6876 ",

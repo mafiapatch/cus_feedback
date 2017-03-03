@@ -1,7 +1,7 @@
 {
   "0": {
     "model_id": "210",
-    "model_company_id": "2",
+    "model_company_id": "1",
     "model_lang_id": "2",
     "model_category_id": "12",
     "model_name": "\u591a\u529f\u80fd\u4e0d\u93fd\u92fc\u5eda\u795e\u7c43",
@@ -36,7 +36,7 @@
   },
   "1": {
     "model_id": "421",
-    "model_company_id": "2",
+    "model_company_id": "1",
     "model_lang_id": "2",
     "model_category_id": "12",
     "model_name": "\u4e0d\u93fd\u92fc\u86cb\u7cd5\u597d\u795e\u5207",
@@ -71,7 +71,7 @@
   },
   "2": {
     "model_id": "289",
-    "model_company_id": "2",
+    "model_company_id": "1",
     "model_lang_id": "2",
     "model_category_id": "12",
     "model_name": "\u842c\u80fd\u701d\u6c34\u5c0f\u5e6b\u624b",
@@ -106,7 +106,7 @@
   },
   "3": {
     "model_id": "597",
-    "model_company_id": "2",
+    "model_company_id": "1",
     "model_lang_id": "2",
     "model_category_id": "12",
     "model_name": "\u716e\u86cb\u8a08\u6642\u795e\u5668",
@@ -141,7 +141,7 @@
   },
   "4": {
     "model_id": "352",
-    "model_company_id": "2",
+    "model_company_id": "1",
     "model_lang_id": "2",
     "model_category_id": "12",
     "model_name": "\u86cb\u7cd5\u597d\u795e\u5207",
@@ -176,7 +176,7 @@
   },
   "5": {
     "model_id": "521",
-    "model_company_id": "2",
+    "model_company_id": "1",
     "model_lang_id": "2",
     "model_category_id": "12",
     "model_name": "\u8f15\u9b06\u597d\u58d3\u849c\u6ce5\u795e\u5668",
@@ -211,7 +211,7 @@
   },
   "6": {
     "model_id": "57",
-    "model_company_id": "2",
+    "model_company_id": "1",
     "model_lang_id": "2",
     "model_category_id": "12",
     "model_name": "\u5207\u897f\u74dc\u795e\u5668",
@@ -246,7 +246,7 @@
   },
   "7": {
     "model_id": "232",
-    "model_company_id": "2",
+    "model_company_id": "1",
     "model_lang_id": "2",
     "model_category_id": "12",
     "model_name": "\u63d0\u888b\u5c0f\u5e6b\u624b",
@@ -281,7 +281,7 @@
   },
   "8": {
     "model_id": "230",
-    "model_company_id": "2",
+    "model_company_id": "1",
     "model_lang_id": "2",
     "model_category_id": "12",
     "model_name": "\u78e8\u5200\u77f3\u9632\u6ed1\u5207\u83dc\u677f",
@@ -316,7 +316,7 @@
   },
   "9": {
     "model_id": "164",
-    "model_company_id": "2",
+    "model_company_id": "1",
     "model_lang_id": "2",
     "model_category_id": "12",
     "model_name": "\u4e0d\u93fd\u92fc\u6d0b\u8525\u5207\u7247\u795e\u5668",
@@ -351,7 +351,7 @@
   },
   "10": {
     "model_id": "216",
-    "model_company_id": "2",
+    "model_company_id": "1",
     "model_lang_id": "2",
     "model_category_id": "12",
     "model_name": "\u4e0d\u93fd\u92fc\u624b\u58d3\u6253\u86cb\u795e\u5668",
@@ -386,7 +386,7 @@
   },
   "11": {
     "model_id": "163",
-    "model_company_id": "2",
+    "model_company_id": "1",
     "model_lang_id": "2",
     "model_category_id": "12",
     "model_name": "\u525d\u7389\u7c73\u795e\u5668",

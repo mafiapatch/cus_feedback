@@ -4,7 +4,7 @@ class DAO {
     private $mysql_address = "localhost";
     private $mysql_username = "root";
     private $mysql_password = "root";
-    private $mysql_database = "cus_feedback";
+    private $mysql_database = "tsmediag_shop";
     private $link;
     private $last_sql = "";
     private $last_id = 0;

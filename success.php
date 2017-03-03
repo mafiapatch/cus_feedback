@@ -4,12 +4,14 @@
         if( isset($_POST['nickname']) AND !empty($_POST['rating']) ) {
 
         $item_id = htmlentities($_POST['item_id'], ENT_QUOTES, 'UTF-8');
+        $item_name = htmlentities($_POST['item_name'], ENT_QUOTES, 'UTF-8');
         $cat_id = htmlentities($_POST['item_category_id'], ENT_QUOTES, 'UTF-8');
         $nickname = htmlentities($_POST['nickname'], ENT_QUOTES, 'UTF-8');
         $content = htmlentities($_POST['content'], ENT_QUOTES, 'UTF-8');
         $ranking = htmlentities($_POST['rating'], ENT_QUOTES, 'UTF-8');
+        $company_id = htmlentities($_POST['item_company_id'], ENT_QUOTES, 'UTF-8');
         $time=date("y-m-d H:i:s");
-        $data_array = array('cat_id' => $cat_id , 'item_id' => $item_id , 'nickname' => $nickname , 'content' => $content , 'ranking' => $ranking , 'datetime' => $time);
+        $data_array = array('feedback_cat_id' => $cat_id , 'feedback_item_id' => $item_id , 'feedback_nickname' => $nickname , 'feedback_content' => $content , 'feedback_ranking' => $ranking , 'feedback_datetime' => $time ,'feedback_item_name' => $item_name , 'feedback_company_id' => $company_id);
         $DAO = new DAO();
         $result_user=$DAO->insert('feedback',$data_array);
     }
